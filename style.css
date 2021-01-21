@@ -3,7 +3,10 @@
 /* Typography */
 * {
   font-family: "Gotham", sans-serif;
-  background-color: #f2f4fb;
+}
+
+body {
+  background-color: #f2f4fb !important;
 }
 
 /*
@@ -57,6 +60,7 @@ font weights...
 
 .navbar-toggler {
   border: none !important;
+  padding: 0px !important;
 }
 
 @media only screen and (min-width: 1440px) {
