@@ -1,0 +1,69 @@
+@import url("http://fonts.cdnfonts.com/css/gotham");
+
+/* Typography */
+* {
+  font-family: "Gotham", sans-serif;
+  background-color: #f2f4fb;
+}
+
+/*
+font weights...
+400=book
+500=medium
+700=bold
+*/
+
+.type01 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.type02 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.type03 {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.type04 {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+}
+
+.type05 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 110%;
+}
+
+.type06 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.type07 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+@media only screen and (min-width: 1440px) {
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 800px) {
+}
