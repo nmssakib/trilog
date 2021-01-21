@@ -2,11 +2,12 @@
 
 /* Typography */
 * {
-  font-family: "Gotham", sans-serif;
+  font-family: "Gotham", sans-serif !important;
 }
 
 body {
   background-color: #f2f4fb !important;
+  color: #202040 !important;
 }
 
 /*
@@ -63,11 +64,48 @@ font weights...
   padding: 0px !important;
 }
 
-@media only screen and (min-width: 1440px) {
+/* Custom Navbar */
+
+.navbar {
+  text-transform: uppercase;
+  letter-spacing: 1.2px !important;
 }
 
-@media only screen and (max-width: 800px) {
+.mr-auto .nav-link {
+  padding-right: 40px !important;
 }
 
-@media only screen and (max-width: 800px) {
+.container-fluid {
+  padding: 0 !important;
+}
+
+/* Containers */
+
+/* Web view */
+@media only screen and (min-width: 992px) {
+  .ccontainer {
+    padding: 60px 0;
+    margin: 0 auto;
+    width: 85%;
+  }
+  .navbar-brand {
+    position: absolute !important;
+    left: 50%;
+    transform: translate(-50%) !important;
+  }
+  .navbar-brand img {
+    width: 180px;
+  }
+}
+
+/* Tab View */
+@media only screen and (max-width: 992px) {
+  .ccontainer {
+    margin: 0 auto;
+    width: 85%;
+  }
+}
+
+/* Mobile View */
+@media only screen and (max-width: 600px) {
 }
