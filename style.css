@@ -80,7 +80,6 @@ font weights...
 }
 
 .card {
-  background-color: rgb(255, 201, 179) !important;
   padding: 20px;
   border-radius: 30px !important;
   border: none !important;
@@ -96,7 +95,7 @@ font weights...
 .card-body {
   padding: 15px 0px 0px 0px !important;
 }
-.card-title {
+.card-heading {
   font-weight: 700;
   font-size: 22px;
   line-height: 110%;
@@ -105,14 +104,28 @@ font weights...
 .card-subtitle {
   font-weight: 400;
   font-size: 16px;
-  padding: 0px;
-  margin-bottom: 0 !important;
+  margin-top: none;
 }
+
+.latest-post-one {
+  background: url("./assets/images/05.jpg");
+  background-size: cover;
+  border-radius: 60px;
+  background-position: center;
+  margin: 0 auto;
+  width: 100%;
+}
+.latest-post-one::after {
+  display: block;
+  content: "";
+  padding-top: 100%;
+}
+
 /* Containers */
 
 /* Web view */
 @media only screen and (min-width: 1400px) {
-  .ccontainer {
+  .ccontainer01 {
     padding: 50px 0;
     margin: 0 auto;
     width: 83.5%;
@@ -132,7 +145,7 @@ font weights...
 
 /* Tab View */
 @media only screen and (max-width: 1400px) {
-  .ccontainer {
+  .ccontainer01 {
     margin: 0 auto;
     width: 85%;
   }
@@ -144,7 +157,7 @@ font weights...
 /* Mobile View */
 @media only screen and (max-width: 500px) {
   .card {
-    background-color: rgb(255, 201, 179) !important;
+    min-height: 250px;
     padding: 15px;
     border-radius: 26px !important;
     border: none !important;
@@ -155,5 +168,18 @@ font weights...
     height: 120px;
     border-radius: 15px !important;
     object-fit: cover;
+  }
+  .chips {
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-right: 10px;
+    top: 15px;
+    background-color: blanchedalmond;
+  }
+
+  .chip {
+    width: 100%;
+    margin: 0 auto;
   }
 }
